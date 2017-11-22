@@ -13,6 +13,9 @@
 		47E13A661FC5C28B00473AC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47E13A651FC5C28B00473AC0 /* Assets.xcassets */; };
 		47E13A691FC5C28B00473AC0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47E13A671FC5C28B00473AC0 /* LaunchScreen.storyboard */; };
 		47E13A741FC5C28B00473AC0 /* RETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E13A731FC5C28B00473AC0 /* RETests.swift */; };
+		47E13A811FC5C29700473AC0 /* String+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E13A7E1FC5C29600473AC0 /* String+Regex.swift */; };
+		47E13A821FC5C29700473AC0 /* String+Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E13A7F1FC5C29700473AC0 /* String+Validation.swift */; };
+		47E13A831FC5C29700473AC0 /* NSRegularExpression+Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47E13A801FC5C29700473AC0 /* NSRegularExpression+Regex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		47E13A6F1FC5C28B00473AC0 /* RETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RETests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47E13A731FC5C28B00473AC0 /* RETests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RETests.swift; sourceTree = "<group>"; };
 		47E13A751FC5C28B00473AC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47E13A7E1FC5C29600473AC0 /* String+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Regex.swift"; sourceTree = "<group>"; };
+		47E13A7F1FC5C29700473AC0 /* String+Validation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Validation.swift"; sourceTree = "<group>"; };
+		47E13A801FC5C29700473AC0 /* NSRegularExpression+Regex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+Regex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +83,10 @@
 		47E13A5D1FC5C28B00473AC0 /* RE */ = {
 			isa = PBXGroup;
 			children = (
-				47E13A5E1FC5C28B00473AC0 /* AppDelegate.swift */,
-				47E13A601FC5C28B00473AC0 /* ViewController.swift */,
+				47E13A801FC5C29700473AC0 /* NSRegularExpression+Regex.swift */,
+				47E13A7E1FC5C29600473AC0 /* String+Regex.swift */,
+				47E13A7F1FC5C29700473AC0 /* String+Validation.swift */,
+				47E13A841FC5C29D00473AC0 /* Sample */,
 				47E13A621FC5C28B00473AC0 /* Main.storyboard */,
 				47E13A651FC5C28B00473AC0 /* Assets.xcassets */,
 				47E13A671FC5C28B00473AC0 /* LaunchScreen.storyboard */,
@@ -94,6 +102,15 @@
 				47E13A751FC5C28B00473AC0 /* Info.plist */,
 			);
 			path = RETests;
+			sourceTree = "<group>";
+		};
+		47E13A841FC5C29D00473AC0 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				47E13A5E1FC5C28B00473AC0 /* AppDelegate.swift */,
+				47E13A601FC5C28B00473AC0 /* ViewController.swift */,
+			);
+			path = Sample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,8 +216,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47E13A831FC5C29700473AC0 /* NSRegularExpression+Regex.swift in Sources */,
 				47E13A611FC5C28B00473AC0 /* ViewController.swift in Sources */,
 				47E13A5F1FC5C28B00473AC0 /* AppDelegate.swift in Sources */,
+				47E13A811FC5C29700473AC0 /* String+Regex.swift in Sources */,
+				47E13A821FC5C29700473AC0 /* String+Validation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
